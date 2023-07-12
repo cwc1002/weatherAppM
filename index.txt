@@ -41,6 +41,16 @@ Thursday 16, Feb
 London, GB
 
 
+#---------- FORECAST ----------#
+
+5 Days Forecast
+
+alt = Overcast Clouds
+
+25
+17 Feb
+Friday
+
 
 #---------- HIGHLIGHTS ----------#
 
@@ -73,15 +83,6 @@ Today at
 
 
 
-
-#---------- FORECAST ----------#
-
-5 Days Forecast
-
-25
-25
-17 Feb
-Friday
 
 
 
