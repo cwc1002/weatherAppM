@@ -31,13 +31,13 @@ const routes = new Map([
   ["/current-location", currentLocation],
   ["/weather", searchedLocation]
 ]);
-
+// 02:05:10
 const checkHash = function () {
-  const requestURL = window.location.hash.slice(1);
+  const requestURL = window.location.hash.slice(1);  // 문자열 1번(두번째)부터 잘라서 반환
 
   const [route, query] = requestURL.includes ? requestURL.split("?") : [requestURL];
 
-  routes.get(route) ? routes.get(route)(query) : error404();
+  routes.get(route) ? routes.get(route)(query) : error404(); 
 }
 
 window.addEventListener("hashchange", checkHash);
