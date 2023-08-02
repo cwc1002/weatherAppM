@@ -46,7 +46,7 @@ searchField.addEventListener("input", function () {
     searchResult.innerHTML = "";
     searchField.classList.remove("searching");
   } else {
-    searchField.classList.add("searching");
+    searchField.classList.add("searching"); // loading icon
   }
 
   if (searchField.value) {

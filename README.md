@@ -11,6 +11,7 @@ A brief description of what this project does and who it's for
 Insert gif or link to demo
 
 [깃허브페이지](https://cwc1002.github.io/weatherAppM/)
+[참고유튜브](https://youtu.be/QMwyNnjAils)
 
 ## Features
 
