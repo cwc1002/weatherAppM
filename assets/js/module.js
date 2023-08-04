@@ -42,7 +42,7 @@ export const getDate = function (dateUnix, timezone) {
   const weekDayName = weekDayNames[date.getUTCDay()];
   const monthName = monthNames[date.getUTCMonth()];
 
-  return `${weekDayName} ${date.getUTCDate()}, ${monthName}`;
+  return `${monthName} ${date.getUTCDate()}일, ${weekDayName}`;
 }
 
 /**

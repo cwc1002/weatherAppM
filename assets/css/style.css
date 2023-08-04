@@ -241,6 +241,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
+  background-color: #fff;
   border-radius: inherit;
   clip-path: circle(100% at 50% 50%);
   transition: var(--transition-short);
@@ -250,7 +251,7 @@ body {
 
 .has-state:is(:focus, :focus-visible)::before {
   background-color: var(--white-alpha-8);
-  animation: ripple 250ms ease forwards;
+  animation: ripple .5s ease forwards;
 }
 
 @keyframes ripple {
